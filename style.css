@@ -1,0 +1,58 @@
+.big{
+    font-size: 45px;
+    color: bisque;
+    background-image: linear-gradient(150deg, orange, gray);
+    width: 700px;
+}
+body{
+    font-family: 'Azeret Mono', monospace;
+}
+.link{
+    text-decoration: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: 700;
+    background-image: linear-gradient(180deg, yellow, pink);
+}
+.half-width{
+    width: 35%;
+    float: left;
+    margin: 5%;
+    padding: 2%;
+}
+.half-width img{
+    width: 100%;
+
+}
+.top{
+   
+    height: 700px;
+    padding-bottom: 50px;
+}
+.button{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 25px;
+    background-image: linear-gradient(150deg, pink, green);
+}
+.middle{
+   
+    height: 700px;
+    padding-bottom: 50px;
+}
+.single{
+    box-shadow: 10px 10px 40px gray;
+    height: 300px;
+}
+#first{
+    border-left: 10px solid;
+    border-image: linear-gradient(145deg, blue, orange);
+    border-image-slice: 1;
+}
+#last{
+    border-left: 10px solid;
+    border-image:linear-gradient(145deg, red, green) ;
+    border-image-slice: 1;
+
+}
